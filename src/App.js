@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import {Routes,Route} from 'react-router-dom';
-import Home from './USEEFFCOMP/ROUTESS/Home';
-import Profil from './USEEFFCOMP/ROUTESS/Profil';
-import Menu from './USEEFFCOMP/ROUTESS/Menu';
+import Home from './ROUTESS/Home';
+import Profil from './ROUTESS/Profil';
+import Menu from './ROUTESS/Menu';
 
 export default function App() {
   return (
