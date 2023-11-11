@@ -8,7 +8,7 @@ export default function Menu() {
         <center>
         <nav className='nav_menu'>
       <Link to='/'  className='nav_Accueil'>Accueil</Link>
-      <Link to='/profil'  className='nav_Profil'>Profil</Link>
+      <Link to='Tp4_react/profil'  className='nav_Profil'>Profil</Link>
     </nav>
         </center>
     </div>
