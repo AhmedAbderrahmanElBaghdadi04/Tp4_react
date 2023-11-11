@@ -11,8 +11,8 @@ export default function App() {
       <Menu></Menu>
 <br /><br />
      <Routes>
-        <Route path='https://AhmedAbderrahmanElBaghdadi04.github.io/Tp4_react/' element={<Home />}></Route>
-        <Route path='https://AhmedAbderrahmanElBaghdadi04.github.io/Tp4_react/profil' element={<Profil />}></Route>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/profil' element={<Profil />}></Route>
         <Route path='*' element={<><h1>404</h1></>}></Route>
      </Routes>
       </center>
