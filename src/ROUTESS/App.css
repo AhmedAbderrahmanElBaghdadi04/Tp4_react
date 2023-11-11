@@ -1,0 +1,31 @@
+.nav_menu {
+  display: flex;
+  background-color: #333; /* Couleur de fond de la barre de navigation */
+height: 50px;
+width: 50%;
+text-align: center;
+justify-items: center;
+position: absolute;
+}
+
+.nav_menu a {
+  text-decoration: none;
+  color: white; /* Couleur du texte des liens */
+  font-size: 26px; /* Taille du texte des liens */
+}
+
+.nav_menu :hover {
+  color: #ffcc00; /* Couleur du texte des liens au survol */
+  background-color: aliceblue;
+}
+
+.nav_Accueil {
+  margin: auto;
+}
+
+.nav_Profil {
+  margin: auto;
+}
+li{
+  list-style-type: none;
+}
