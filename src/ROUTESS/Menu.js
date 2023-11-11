@@ -7,8 +7,8 @@ export default function Menu() {
     <div>
         <center>
         <nav className='nav_menu'>
-      <Link to='https://ahmedabderrahmanelbaghdadi04.github.io/Tp4_react/'  className='nav_Accueil'>Accueil</Link>
-      <Link to='https://ahmedabderrahmanelbaghdadi04.github.io/Tp4_react/profil'  className='nav_Profil'>Profil</Link>
+      <Link to='/'  className='nav_Accueil'>Accueil</Link>
+      <Link to='/profil'  className='nav_Profil'>Profil</Link>
     </nav>
         </center>
     </div>
