@@ -2,7 +2,7 @@
   display: flex;
   background-color: #333; /* Couleur de fond de la barre de navigation */
 height: 50px;
-width: 50%;
+width:100%;
 text-align: center;
 justify-items: center;
 position: absolute;
