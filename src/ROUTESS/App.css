@@ -29,3 +29,42 @@ position: absolute;
 li{
   list-style-type: none;
 }
+.img_cats{
+  max-width: 350px;
+  max-height: 350px;
+}
+@media screen and (min-width: 350px) and (max-width:500px) {
+  body {
+    background-color: lightgreen;
+    min-width: 200px;
+    max-width: 500px;
+    
+  }
+  .nav_menu {
+    display: flex;
+    background-color: #333; /* Couleur de fond de la barre de navigation */
+  height: 30px;
+  width:200px;
+  text-align: center;
+  justify-items: center;
+  }
+}
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px; /* Ajoutez un espace interne pour une meilleure lisibilité */
+}
+
+@media screen and (max-width: 600px) {
+  /* Styles spécifiques pour les écrans de 600 pixels de large et moins */
+  .content {
+    max-width: 100%;
+    padding: 10px; /* Ajustez l'espace interne pour les écrans plus petits */
+  }
+}

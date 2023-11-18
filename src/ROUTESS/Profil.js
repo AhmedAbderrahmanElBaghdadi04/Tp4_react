@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import '../ROUTESS/App.css'
 
 function Profil() {
   const [arrfile,setArrfile]=useState(['']);
@@ -16,6 +15,7 @@ useEffect(()=>{
   return (
     <div>
       <h1>Exemple API return Array</h1>
+      <div className='LISTES'>
 <ul>
 
 {arrfile.map((el)=>{
@@ -24,6 +24,7 @@ return <li>{el.format} +++ {el.name}</li>
 
 })}
 </ul>
+</div>
  </div>
  );
 }

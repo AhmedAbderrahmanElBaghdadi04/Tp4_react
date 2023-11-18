@@ -1,24 +1,89 @@
 .nav_menu {
   display: flex;
   background-color: #333; /* Couleur de fond de la barre de navigation */
-  padding: 10px;
+height: 50px;
+width:100%;
+text-align: center;
+justify-items: center;
 }
 
 .nav_menu a {
   text-decoration: none;
   color: white; /* Couleur du texte des liens */
-  margin-right: 20px; /* Marge entre les liens pour l'espacement */
-  font-size: 16px; /* Taille du texte des liens */
+  font-size: 26px; /* Taille du texte des liens */
 }
 
-.nav_menu a:hover {
+.nav_menu :hover {
   color: #ffcc00; /* Couleur du texte des liens au survol */
+  background-color: aliceblue;
 }
 
 .nav_Accueil {
-  /* Styles spécifiques pour le lien Accueil si nécessaire */
+  margin: auto;
 }
 
 .nav_Profil {
-  /* Styles spécifiques pour le lien Profil si nécessaire */
+  margin: auto;
 }
+li{
+  list-style-type: none;
+}
+.img_cats{
+  max-width: 350px;
+  max-height: 350px;
+}
+@media screen and (min-width: 105px) and  (max-width:400px){
+  body {
+    background-color: lightgreen;
+  width: 375px;
+  height: 900px;
+    
+  }
+  .nav_menu {
+    display: flex;
+    background-color: #333; /* Couleur de fond de la barre de navigation */
+  height: 30px;
+  width:100%;
+  text-align: center;
+  display: flex;
+  justify-items: center;
+  }
+  .img_cats{
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px; /* Ajoutez un espace interne pour une meilleure lisibilité */
+}
+
+@media screen and (max-width: 700px) {
+  /* Styles spécifiques pour les écrans de 600 pixels de large et moins */
+  .content {
+    max-width: 100%;
+    padding: 10px; /* Ajustez l'espace interne pour les écrans plus petits */
+  }
+  .nav_menu {
+    display: flex;
+    background-color: #333; /* Couleur de fond de la barre de navigation */
+  height: 30px;
+  width:100%;
+  text-align: center;
+  display: flex;
+  justify-items: center;
+  }
+  .LISTES{
+    width: 200px;
+    height: 3000px;
+    text-align: center;
+  }
+}
+
